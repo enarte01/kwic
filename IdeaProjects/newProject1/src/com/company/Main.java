@@ -1,8 +1,6 @@
 package com.company;
 
 
-import static java.lang.System.out;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -30,12 +28,18 @@ public class Main {
  if (evenFlag) {
  System.out.println("n was even when I checked it");
  }else out.print("yikes!");
- */}
+ */
+
+      //  out.print(ReturnValue.isSingleDigit(17));
+
+       // ReturnValue.shouldBeSingle(73);
 
 
-    public static boolean isSingleDigit(int x) {
-        return x >= 0 && x < 10;
-    }
+        System.out.print(ReturnValue.fibonacci(7));
+
+ }
+
+
 
 }
 
